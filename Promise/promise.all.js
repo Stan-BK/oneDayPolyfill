@@ -1,7 +1,7 @@
 const MyPromise = require('./promise')
 MyPromise.all = function(promiseArr) {
   var res = [],
-      len = promiseArr.lenght
+      len = promiseArr.length
 
   return new MyPromise((resolve, reject) => {
     promiseArr.forEach((promise, index) => {
