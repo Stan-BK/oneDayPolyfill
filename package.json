@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Stan-BK/oneDayPolyfill/issues"
   },
-  "homepage": "https://github.com/Stan-BK/oneDayPolyfill#readme"
+  "homepage": "https://github.com/Stan-BK/oneDayPolyfill#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }

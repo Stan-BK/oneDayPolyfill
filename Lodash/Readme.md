@@ -1,0 +1,2 @@
+# The implementation according to the Lodash
+Lodash作为一个对于对象、数组等数据类型进行各种有意思的应用函数封装库，或许对于其工具函数的重写实现能够开拓更多的JS应用思维。
