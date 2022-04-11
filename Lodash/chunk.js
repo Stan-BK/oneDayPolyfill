@@ -3,13 +3,15 @@
 const _ = require('lodash')
 function Mychunk(arr, size = 1) {
   var res = [], chunk = []
-  chunk.push(arr[0])
-  for (var i = 1; i < arr.length; i++) {
-    if (i % size === 0) {
+  if (size === 0) {
+    return []
+  }
+  for (var i = 0; i < arr.length; i++) {
+    chunk.push(arr[i])
+    if (chunk.length === size) {
       res.push(chunk)
       chunk = []
     }
-    chunk.push(arr[i])
   }
   chunk.length && res.push(chunk)
   return res
