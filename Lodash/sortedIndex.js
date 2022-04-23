@@ -8,7 +8,7 @@ const HALF_MAX_ARRAY_LENGTH = MAX_ARRAY_LENGTH >>> 1
 function MysortedIndex(arr, value) {
   var len = arr.length
   var low = 0
-  var high = len - 1
+  var high = len
   while (low < high) {
     var mid = (low + high) >>> 1
     if (arr[mid] === value) {
