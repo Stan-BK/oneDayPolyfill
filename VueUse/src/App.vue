@@ -24,6 +24,9 @@ body, ul, li {
   padding: 0;
   color: rgb(225, 225, 225)
 }
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
 * {
   box-sizing: border-box;
 }
